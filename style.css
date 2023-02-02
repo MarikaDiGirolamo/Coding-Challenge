@@ -1,0 +1,85 @@
+/*Background*/
+
+body{
+    background-image: url(img/background.jpg);
+    color: black;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Contenitore*/
+
+.container{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+   
+}
+
+/*Logo e testo*/
+
+.logo{
+    width: 250px;
+}
+
+.logo-text{
+    font-size: 30px;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*nav part*/
+
+.boxed{
+    background-color: greenyellow;
+    width: 950px;
+    border: 1px black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+/*main part*/
+
+.description{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div > span{
+    color: white;
+}
+
+#battery1{
+    width: 200px;
+    border: 15px solid lightsalmon;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#battery2{
+    width: 400px;
+    border: 15px solid lightgreen;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#battery3{
+    width: 150px;
+    border: 15px solid orangered;
+    border-radius: 10px;
+    margin: 20px;
+}
